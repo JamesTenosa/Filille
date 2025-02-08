@@ -1,0 +1,31 @@
+@import url('npm:normalize.css');
+html,
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height: 100%; /* Ensure body takes full height */
+}
+p {
+    font-size: 12px; /* Fixed font size */
+    line-height: 1.2; /* Adjust line height for better readability */
+    text-align: justify;
+    white-space: pre-wrap; /* Preserve whitespace and wrap text */
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: text;
+    background-position: center;
+    background-image: url(bg.jpg);
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(225, 225, 255, 0);
+    background-clip: text;
+    position: absolute; /* Allow absolute positioning */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Hide overflow */
+}
